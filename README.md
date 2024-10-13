@@ -1,4 +1,4 @@
-# static-methods
+# Random Generator
 
 Utility class for generating random things:
 
@@ -7,3 +7,6 @@ Utility class for generating random things:
 - Options
 - Excuses
 - Villain Names
+
+## Demo 
+[Click for demo](./index.html)
