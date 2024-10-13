@@ -9,4 +9,4 @@ Utility class for generating random things:
 - Villain Names
 
 ## Demo 
-[Click for demo](./index.html)
+[Click for demo](https://mihai7563.github.io/random-generator/)
