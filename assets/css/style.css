@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --border-radius: 17.5px;
+    --box-shadow: 0px 0px 9px 2px #626548;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: #979b6f;
+}
+
+h1{
+    text-align: center;
+}
+
+.cards-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.card{
+    height: 15rem;
+    width: 35rem;
+    border-radius: var(--border-radius);;
+    box-shadow: var(--box-shadow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column;
+    text-align: center; */ 
+    gap: 1rem;
+    padding: 1rem;
+    background-color: #fff8df;
+    font-size: 1.1rem;
+}
+
+.card h2 {
+    margin: 0;
+}
+
+.img-container{
+    height: 11rem;
+    aspect-ratio: 1;
+    border-radius: var(--border-radius);
+    position: relative;
+    right: 2.5rem;
+    background-image: url(../img/default-card-img.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: var(--box-shadow);
+}
+
+.text-container{
+    height: 11rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.btn{
+    cursor: pointer;
+    margin-top: 10px;
+    padding: .75rem 2.25rem;
+    background-color: #c3d136;
+    border: 0;
+    border-radius: var(--border-radius);
+    box-shadow: 2px 2px 6px 1px #50514ec7;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: box-shadow 0.5s, background-color 0.5s;
+}
+
+.btn:hover{
+    box-shadow: 2px 2px 6px 2px #50514ec7;
+    background-color: #dcec27;
+}
